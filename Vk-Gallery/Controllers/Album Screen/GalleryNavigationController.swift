@@ -60,16 +60,16 @@ class GalleryNavigationController: UIViewController {
     }
     
     func createAlertView(title: String, massage: String) {
-        let allert = UIAlertController.init(title: title, message: massage, preferredStyle: .alert)
+        let alert = UIAlertController.init(title: title, message: massage, preferredStyle: .alert)
         let canceAction = UIAlertAction(title: "collectionAlertCancelButton".localized, style: .cancel, handler: nil)
-        allert.addAction(canceAction)
+        alert.addAction(canceAction)
         
         let action = UIAlertAction(title: "collectionAlertRefreshBurron".localized, style: .default) { _ in
             self.loadPhoto()
         }
-        allert.addAction(action)
+        alert.addAction(action)
         
-        present(allert, animated: true, completion: nil)
+        present(alert, animated: true, completion: nil)
     }
 }
 

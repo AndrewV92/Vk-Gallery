@@ -56,10 +56,10 @@ class LoginViewController: UIViewController {
     
     //MARK:- createAlertView
     func createAlertView(title: String, massage: String) {
-        let allert = UIAlertController.init(title: title, message: massage, preferredStyle: .alert)
+        let alert = UIAlertController.init(title: title, message: massage, preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: "mailAllertButton".localized, style: .default, handler: nil)
-        allert.addAction(cancelAction)
+        alert.addAction(cancelAction)
         
-        present(allert, animated: true, completion: nil)
+        present(alert, animated: true, completion: nil)
     }
 }
