@@ -58,11 +58,11 @@ class DetailViewController: UIViewController {
     
     //MARK:- createAlert
     func createAlertView(title: String, massage: String) {
-        let allert = UIAlertController.init(title: title, message: massage, preferredStyle: .alert)
-        let canceAction = UIAlertAction(title: "detailAlertButton".localized, style: .default, handler: nil)
-        allert.addAction(canceAction)
+        let alert = UIAlertController.init(title: title, message: massage, preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "detailAlertButton".localized, style: .default, handler: nil)
+        alert.addAction(cancelAction)
         
-        present(allert, animated: true, completion: nil)
+        present(alert, animated: true, completion: nil)
     }
     
     //MARK:- convert Date
