@@ -21,7 +21,7 @@ final class VKDelegate: SwiftyVKDelegate {
     }
     
     func vkNeedToPresent(viewController: VKViewController) {
-        if let rootController = UIApplication.shared.windows.first?.rootViewController {
+        if let rootController = UIApplication.shared.keyWindow?.rootViewController {
             rootController.present(viewController, animated: true)
         }
     }

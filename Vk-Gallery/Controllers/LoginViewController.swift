@@ -25,8 +25,8 @@ class LoginViewController: UIViewController {
         if VK.sessions.default.accessToken != nil {
             
             let storyboard = UIStoryboard(name: "Main", bundle: .main)
-            let gelerryVC = storyboard.instantiateViewController(identifier: "MyNavigationController") as! MyNavigationController
-            self.present(gelerryVC, animated: false)
+            let galerryVC = storyboard.instantiateViewController(identifier: "MyNavigationController") as! MyNavigationController
+            self.present(galerryVC, animated: false)
         }
     }
     
@@ -38,11 +38,11 @@ class LoginViewController: UIViewController {
                     
                     DispatchQueue.main.async { [weak self] in
                         let storyboard = UIStoryboard(name: "Main", bundle: .main)
-                        let gelerryVC = storyboard.instantiateViewController(identifier: "MyNavigationController") as! MyNavigationController
-                        self?.present(gelerryVC, animated: true)
+                        let galerryVC = storyboard.instantiateViewController(identifier: "MyNavigationController") as! MyNavigationController
+                        self?.present(galerryVC, animated: true)
                     }
                     
-                    print("SECSES", info)
+                    print("Success", info)
                 } onError: { error in
                     DispatchQueue.main.async { [weak self] in
                         self?.createAlertView(title: "mailAllertTitle".localized , massage: "mailAllertMessage".localized)
@@ -57,8 +57,8 @@ class LoginViewController: UIViewController {
     //MARK:- createAlertView
     func createAlertView(title: String, massage: String) {
         let allert = UIAlertController.init(title: title, message: massage, preferredStyle: .alert)
-        let canceAction = UIAlertAction(title: "mailAllertButton".localized, style: .default, handler: nil)
-        allert.addAction(canceAction)
+        let cancelAction = UIAlertAction(title: "mailAllertButton".localized, style: .default, handler: nil)
+        allert.addAction(cancelAction)
         
         present(allert, animated: true, completion: nil)
     }
