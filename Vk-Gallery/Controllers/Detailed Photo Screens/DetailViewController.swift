@@ -12,12 +12,6 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var fullPhotoImageView: CustomImageView!
     @IBOutlet weak var bottomCollectionView: UICollectionView!
     
-    //Отдельная кнопка для сохранения фотографии в галерею напрямую
-    @IBAction func saveButton(_ sender: UIBarButtonItem) {
-        guard let image = fullPhotoImageView.image else { return }
-        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-        }    
-    
     
     var fullImageString = ""
     var date = 0
@@ -41,10 +35,6 @@ class DetailViewController: UIViewController {
             activityItems: [image, url[0].url], applicationActivities: nil)
         
         activityViewController.activityItemsConfiguration = [ UIActivity.ActivityType.saveToCameraRoll ] as? UIActivityItemsConfigurationReading
-       // @IBAction func saveImageButtonAction(_ sender: Any) {
-       //         guard let image = self.image else { return }
-       //         UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
-       //     }
         
         activityViewController.completionWithItemsHandler = {(activityType: UIActivity.ActivityType?, completed: Bool, returnedItems: [Any]?, error: Error?) in
             if !completed {
