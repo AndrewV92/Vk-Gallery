@@ -14,7 +14,6 @@
 		FBA4FC9B27EE197200E1C23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA4FC9927EE197200E1C23C /* LaunchScreen.storyboard */; };
 		FBA4FCA427EE1A4900E1C23C /* VKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4FCA327EE1A4900E1C23C /* VKDelegate.swift */; };
 		FBA4FCA827EE1B1700E1C23C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4FCA727EE1B1700E1C23C /* DataModel.swift */; };
-		FBA4FCAB27EE1B4700E1C23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA4FCA927EE1B4600E1C23C /* Main.storyboard */; };
 		FBA4FCAE27EE1BC900E1C23C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4FCAD27EE1BC900E1C23C /* LoginViewController.swift */; };
 		FBA4FCB427EE1D5F00E1C23C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBA4FCB227EE1D5F00E1C23C /* Localizable.strings */; };
 		FBA4FCB727EE1DE600E1C23C /* ExtentionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4FCB627EE1DE600E1C23C /* ExtentionString.swift */; };
@@ -23,6 +22,7 @@
 		FBA4FCD027EE1EF100E1C23C /* BottomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4FCCE27EE1EF100E1C23C /* BottomCollectionViewCell.swift */; };
 		FBA4FCD127EE1EF100E1C23C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4FCCF27EE1EF100E1C23C /* DetailViewController.swift */; };
 		FBA4FCD327EE1F8E00E1C23C /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4FCD227EE1F8E00E1C23C /* CustomImageView.swift */; };
+		FBA9EB1F27F23E7C00A73A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA9EB1D27F23E7C00A73A1A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,16 +37,16 @@
 		FBA4FC9C27EE197200E1C23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBA4FCA327EE1A4900E1C23C /* VKDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKDelegate.swift; sourceTree = "<group>"; };
 		FBA4FCA727EE1B1700E1C23C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		FBA4FCAA27EE1B4600E1C23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../study/MobileUpGallery4/MobileUpGallery/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBA4FCAD27EE1BC900E1C23C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FBA4FCB327EE1D5F00E1C23C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../../../study/MobileUpGallery4/MobileUpGallery/Localized/en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FBA4FCB527EE1D7D00E1C23C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ../../../study/MobileUpGallery4/MobileUpGallery/Localized/ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBA4FCB327EE1D5F00E1C23C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBA4FCB527EE1D7D00E1C23C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FBA4FCB627EE1DE600E1C23C /* ExtentionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionString.swift; sourceTree = "<group>"; };
 		FBA4FCCA27EE1EEC00E1C23C /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		FBA4FCCB27EE1EEC00E1C23C /* GalleryNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryNavigationController.swift; sourceTree = "<group>"; };
 		FBA4FCCE27EE1EF100E1C23C /* BottomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomCollectionViewCell.swift; sourceTree = "<group>"; };
 		FBA4FCCF27EE1EF100E1C23C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FBA4FCD227EE1F8E00E1C23C /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		FBA9EB1E27F23E7C00A73A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Vk-Gallery/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 				FBA4FCA627EE1B0A00E1C23C /* Models */,
 				FBA4FCA527EE1ADB00E1C23C /* Systems */,
 				FBA4FCA227EE1A3600E1C23C /* API VK DELEGATES */,
-				FBA4FCA927EE1B4600E1C23C /* Main.storyboard */,
 				FBA4FC9727EE197200E1C23C /* Assets.xcassets */,
 				FBA4FC9927EE197200E1C23C /* LaunchScreen.storyboard */,
+				FBA9EB1D27F23E7C00A73A1A /* Main.storyboard */,
 				FBA4FC9C27EE197200E1C23C /* Info.plist */,
 				FBA4FCAF27EE1BEA00E1C23C /* Localization */,
 			);
@@ -237,9 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA4FC9B27EE197200E1C23C /* LaunchScreen.storyboard in Resources */,
+				FBA9EB1F27F23E7C00A73A1A /* Main.storyboard in Resources */,
 				FBA4FCB427EE1D5F00E1C23C /* Localizable.strings in Resources */,
 				FBA4FC9827EE197200E1C23C /* Assets.xcassets in Resources */,
-				FBA4FCAB27EE1B4700E1C23C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +317,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		FBA4FCA927EE1B4600E1C23C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBA4FCAA27EE1B4600E1C23C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBA4FCB227EE1D5F00E1C23C /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -333,6 +325,15 @@
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
+		};
+		FBA9EB1D27F23E7C00A73A1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA9EB1E27F23E7C00A73A1A /* Base */,
+			);
+			name = Main.storyboard;
+			path = "/Users/andrewvorobev/Desktop/Vk-Gallery/Vk-Gallery";
+			sourceTree = "<absolute>";
 		};
 /* End PBXVariantGroup section */
 

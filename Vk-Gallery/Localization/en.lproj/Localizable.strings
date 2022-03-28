@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  MobileUpGallery
+
+  Created by Андрей Воробьев on 25.03.2022
+  
+*/
+// MainScreen
+"mailAllertTitle" = "Error";
+"mailAllertMessage" = "Check your username and password";
+"mailAllertButton" = "Okay";
+"mainButtonLogin" = "Login through VK";
+"mainLabel" = "Mobile Up Gallery";
+//CollectionScreen
+"titleCollectionView" = "Mobile Up Gallery";
+"logoutButton" = "logout";
+"collectionAlertTitle" = "Error";
+"collectionAlertMessage" = "Refresh the page";
+"collectionAlertCancelButton" = "Cancel";
+"collectionAlertRefreshBurron" = "Refresh";
+//DetailScneer
+"detailAlertTitle" = "Succes";
+"detailAlertButton" = "Okay";

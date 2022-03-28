@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  MobileUpGallery
+
+  Created by Андрей Воробьев on 25.03.2022
+  
+*/
+// MainScreen
+"mailAllertTitle" = "Ошибка";
+"mailAllertMessage" = "Проверте правильность логина и пароля";
+"mailAllertButton" = "Окей";
+"mainButtonLogin" = "Войти через ВК";
+"mainLabel" = "Mobile Up Gallery";
+//CollectionScreen
+"titleCollectionView" = "Mobile Up Gallery";
+"logoutButton" = "Выход";
+"collectionAlertTitle" = "Ошибка";
+"collectionAlertMessage" = "Обновите страницу";
+"collectionAlertCancelButton" = "Отмена";
+"collectionAlertRefreshBurron" = "Обновить";
+//DetailScneer
+"detailAlertTitle" = "Успешно";
+"detailAlertButton" = "Окей";
